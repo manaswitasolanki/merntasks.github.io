@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Task-3|Manaswita</title>
+
+</head>
+<body class="bg-success">
+    <div class="jumbotron">
+        <center><h1>Registration Form</h1></center>
+    </div>
+    
+    <div class="container">
+
+        <form class="form-horizontal" role="form">
+            <div class="form-group has-error has-feedback">
+                <label for="Firstname" class="col-sm-3">First Name</label>
+                <div class="col-sm-9">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                         <span class="glyphicon glyphicon-user"></span> 
+                        </div>
+                   
+                    <input type="text" class="form-control " id="firstname" placeholder="Enter your first name"/>
+                    <span class="glyphicon glyphicon-remove form-control-feedback"></span>       
+                    
+                    </div>
+                    <span class="help-block"><p>The Email field is required.</p></span> 
+                    
+                    
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Lastname" class="col-sm-3">Last Name</label>
+                <div class="col-sm-9">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                         <span class="glyphicon glyphicon-user"></span> 
+                        </div>
+                    <input type="text" class="form-control " id="lastname" placeholder="Enter your last  name"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Email" class="col-sm-3">E-mail</label>
+                <div class="col-sm-9">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                         <span class="glyphicon glyphicon-envelope"></span> 
+                        </div>
+                    <input type="email" class="form-control " id="email" placeholder="Enter your e-mail"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Phone" class="col-sm-3">Phone #</label>
+                <div class="col-sm-9">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                         <span class="glyphicon glyphicon-earphone"></span> 
+                        </div>
+                    <input type="number" class="form-control " id="phone" placeholder="Enter your phone number"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Address" class="col-sm-3">Address</label>
+                <div class="col-sm-9">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                         <span class="glyphicon glyphicon-home"></span> 
+                        </div>
+                    <input type="text" class="form-control " id="address" placeholder="Enter your address"/>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="City" class="col-sm-3">City</label>
+                <div class="col-sm-9">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                         <span class="glyphicon glyphicon-home"></span> 
+                        </div>
+                    <input type="text" class="form-control " id="city" placeholder="Enter your city"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="State" class="col-sm-3" >State</label>
+                <div class="col-sm-9">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                         <span class="glyphicon glyphicon-list"></span> 
+                        </div>
+                    <select class="form-control">
+                        <option value="">Please select your state</option>
+                        <option value="tamilnadu">Tamil Nadu</option>
+                        <option value="gujarat">Gujarat</option>
+                        <option value="sikkim">Sikkim</option>
+                        <option value="kerala">Kerala</option>
+                        <option value="goa">Goa</option>
+                        
+                    </select>
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group"> 
+                <label for="Host" class="col-sm-3">Are you hosting?</label>
+                <div class="radio">
+                    <div class="col-sm-offset-3 col-sm-9">
+                        <label>
+                            <input type="radio" name="option" id="option" value="Yes"/>
+                            Yes
+                        </label>
+                    </div>
+    
+                </div>
+    
+                <div class="radio">
+                    <div class="col-sm-offset-3 col-sm-9">
+                        <label>
+                            <input type="radio" name="option" id="option" value="No"/>
+                            No
+                        </label>
+                    </div>
+    
+                </div>
+            </div>
+           
+            
+            <div class="form-group">
+                <label for="Projectdes" class="col-sm-3">Project Description</label>
+                <div class="col-sm-9">
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                         <span class="glyphicon glyphicon-pencil"></span> 
+                        </div>
+                    <textarea class="form-control" rows="3" placeholder="Project Description"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-9">
+                    <button type="submit" class="btn btn-success">Send <span class="glyphicon glyphicon-send"></span></button>
+                </div>
+            </div>
+            
+
+        </form>
+
+    </div>
+    
+</body>
+</html>
